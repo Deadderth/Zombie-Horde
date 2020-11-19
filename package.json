@@ -9,14 +9,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/TheGiddyLimit/homebrew.git"
+		"url": "git+https://github.com/Deadderth/homebrew.git"
 	},
-	"author": "TheGiddyLimit + Friends",
+	"author": "Deadderth",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/TheGiddyLimit/homebrew/issues"
+		"url": "https://github.com/Deadderth/homebrew/issues"
 	},
-	"homepage": "https://github.com/TheGiddyLimit/homebrew#readme",
+	"homepage": "https://github.com/Deadderth/homebrew#readme",
 	"devDependencies": {
 		"ajv": "^6.12.3"
 	}
