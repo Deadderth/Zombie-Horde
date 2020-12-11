@@ -21,7 +21,7 @@
 	},
 	"monster": [
 		{
-			"name": "Zombie",
+			"name": "Zomsbie",
 			"size": "M",
 			"type": {
 				"type": "undead",
