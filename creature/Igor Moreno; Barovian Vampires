@@ -21,7 +21,7 @@
 	},
 	"monster": [
 		{
-			"name": "Vampire, Bloodrager",
+			"name": "Zombie",
 			"size": "M",
 			"type": {
 				"type": "undead",
