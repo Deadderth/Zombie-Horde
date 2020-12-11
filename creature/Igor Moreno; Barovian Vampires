@@ -21,12 +21,12 @@
 	},
 	"monster": [
 		{
-			"name": "Zomsbie",
+			"name": "Infested Agitated Zombie",
 			"size": "M",
 			"type": {
-				"type": "undead",
+				"type": "infested",
 				"tags": [
-					"shapechanger"
+					"humanoid"
 				]
 			},
 			"source": "BAROVIANVAMPIRES",
@@ -36,28 +36,28 @@
 			],
 			"ac": [
 				{
-					"ac": 17,
+					"ac": 11,
 					"from": [
 						"natural armor"
 					]
 				}
 			],
 			"hp": {
-				"formula": "13d8 + 52",
-				"average": 110
+				"formula": "1d2 + 7",
+				"average": 8
 			},
 			"speed": {
-				"walk": 40
+				"walk": 30
 			},
-			"str": 18,
-			"dex": 16,
-			"con": 18,
-			"int": 10,
-			"wis": 14,
-			"cha": 10,
-			"passive": 15,
-			"cr": "7",
-			"shortName": "Vampire, Bloodrager",
+			"str": 12,
+			"dex": 12,
+			"con": 14,
+			"int": 2,
+			"wis": 2,
+			"cha": 2,
+			"passive": 6,
+			"cr": "1/8",
+			"shortName": "Infested Agitated Zombie",
 			"languages": [
 				"common"
 			],
