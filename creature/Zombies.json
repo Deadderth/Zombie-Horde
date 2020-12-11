@@ -1,0 +1,661 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Zombie Horde",
+				"abbreviation": "ZH",
+				"full": "Zombie Horde",
+				"authors": [
+					"Deadderth"
+				],
+				"convertedBy": [
+					"Deadderth"
+				],
+				"version": "Alpha",
+				"url": "x",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1604518196,
+		"dateLastModified": 1604797711
+	},
+	
+	"monster": [
+		{
+	"name": "Infested Agitated Zombie",
+	"source": "ZombieHorde",
+	"size": "M",
+	"type": {
+		"type": "undead",
+		"tags": [
+			"infested"
+		]
+	},
+	"alignment": [
+		"C",
+		"E"
+	],
+	"ac": [
+		11
+	],
+	"hp": {
+		"special": "8"
+	},
+	"speed": {
+		"walk": 30
+	},
+	"str": 12,
+	"dex": 12,
+	"con": 14,
+	"int": 2,
+	"wis": 2,
+	"cha": 2,
+	"passive": 6,
+	"immune": [
+		"poison",
+		"psychic"
+	],
+	"conditionImmune": [
+		"charmed",
+		"exhaustion",
+		"frightened",
+		"poisoned",
+		"unconscious"
+	],
+	"trait": [{
+			"name": "Fear The Horde",
+			"entries": [
+				"This creature gets {@hit 1} to hit for every two other Infested adjacent to attacked enemy. (Maximum of +4)"
+			]
+		},
+		{
+			"name": "Infested",
+			"entries": [
+				"This creature is Infested, corpses not burnt, pulped or dismembered are dangerous."
+			]
+		}
+	],
+	"action": [{
+			"name": "Slam",
+			"entries": [
+				"{@atk mw} {@hit -4} to hit, reach 5 ft., one target. {@h} ({@damage 1d4}) bludgeoning damage. If the attack is a critical hit it turns into a Bite."
+			]
+		},
+		{
+			"name": "Bite",
+			"entries": [
+				"{@atk mw} reach 5 ft., one target. {@h} ({@damage 1d4}) damage. Inflicts Festering Wound on failed {@dc 10} Constitution save."
+			]
+		}
+	],
+	"environment": [
+		"urban"
+	],
+	"tokenUrl": "https://github.com/Deadderth/homebrew/blob/main/tokens/infested_agitated_zombie.png?raw=true",
+	"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/426/zombie.mp3",
+	"damageTags": [
+		"B"
+	],
+	"miscTags": [
+		"MW"
+	],
+	"vulnerable": [
+		"fire",
+		"radiant"
+	],
+	"resist": [
+		"cold",
+		"necrotic"
+	],
+	"cr": "0",
+	"fluff": {
+		"entries": [
+			"This recently-risen body moves quickly, darting its head back and forth and gnawing at its hands."
+		],
+		"images": [{
+			"type": "image",
+			"href": {
+				"type": "external",
+				"url": "https://i.pinimg.com/originals/e6/b7/e2/e6b7e229bcb69e234e2a013065b9ad8b.jpg"
+			}
+		}]
+	}
+},
+		{
+	"name": "Infested Armored Zombie",
+	"source": "ZombieHorde",
+	"size": "M",
+	"type": {
+		"type": "undead",
+		"tags": [
+			"infested"
+		]
+	},
+	"alignment": [
+		"C",
+		"E"
+	],
+	"ac": [
+		14
+	],
+	"hp": {
+		"special": "10"
+	},
+	"speed": {
+		"walk": 15
+	},
+	"str": 12,
+	"dex": 6,
+	"con": 14,
+	"int": 2,
+	"wis": 2,
+	"cha": 2,
+	"passive": 6,
+	"immune": [
+		"poison",
+		"psychic"
+	],
+	"conditionImmune": [
+		"charmed",
+		"exhaustion",
+		"frightened",
+		"poisoned",
+		"unconscious"
+	],
+	"trait": [
+		{
+			"name": "Fear The Horde",
+			"entries": [
+				"This creature gets {@hit 1} to hit for every two other Infested adjacent to attacked enemy. (Maximum of +4)"
+			]
+		},
+		{
+			"name": "Infested",
+			"entries": [
+				"This creature is Infested, corpses not burnt, pulped or dismembered are dangerous."
+			]
+		}
+	],
+	"action": [
+		{
+			"name": "Slam",
+			"entries": [
+				"{@atk mw} {@hit -4} to hit, reach 5 ft., one target. {@h} ({@damage 1d4}) bludgeoning damage. If the attack is a critical hit it turns into a Bite."
+			]
+		},
+		{
+			"name": "Bite",
+			"entries": [
+				"{@atk mw} reach 5 ft., one target. {@h} ({@damage 1d4}) damage. Inflicts Festering Wound on failed {@dc 12} Constitution save."
+			]
+		}
+	],
+	"environment": [
+		"urban"
+	],
+	"tokenUrl": "https://raw.githubusercontent.com/Deadderth/homebrew/main/tokens/infested_armored_zombie.png",
+	"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/426/zombie.mp3",
+	"damageTags": [
+		"B"
+	],
+	"miscTags": [
+		"MW"
+	],
+	"vulnerable": [
+		"fire",
+		"radiant"
+	],
+	"resist": [
+		"cold",
+		"necrotic"
+	],
+	"cr": "0",
+	"fluff": {
+		"entries": [
+			"A human body, swaying as it moves, an unstoppable rage visible in its oily black eyes."
+		],
+		"images": [
+			{
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.pinimg.com/originals/02/21/a6/0221a6cb01b33c4778e7d031cb156bb5.png"
+				}
+			}
+		]
+	}
+},
+		{
+	"name": "Infested Boomer",
+	"source": "ZombieHorde",
+	"size": "M",
+	"type": {
+		"type": "undead",
+		"tags": [
+			"infested"
+		]
+	},
+	"alignment": [
+		"C",
+		"E"
+	],
+	"ac": [
+		6
+	],
+	"hp": {
+		"special": "4"
+	},
+	"speed": {
+		"walk": 10
+	},
+	"str": 14,
+	"dex": 4,
+	"con": 12,
+	"int": 2,
+	"wis": 2,
+	"cha": 2,
+	"passive": 6,
+	"immune": [
+		"poison",
+		"psychic"
+	],
+	"conditionImmune": [
+		"charmed",
+		"exhaustion",
+		"frightened",
+		"poisoned",
+		"unconscious"
+	],
+	"trait": [
+		{
+			"name": "Fear The Horde",
+			"entries": [
+				"This creature gets {@hit 1} to hit for every two other Infested adjacent to attacked enemy. (Maximum of +4)"
+			]
+		},
+		{
+			"name": "Volatile",
+			"entries": [
+				"On death creates loud explosion of vile bile. Non-infested creatures adjacent to Boomer are {@condition poisoned} for one turn."
+			]
+		}
+	],
+	"action": [
+		{
+			"name": "Slam",
+			"entries": [
+				"{@atk mw} {@hit -4} to hit, reach 5 ft., one target. {@h} ({@damage 1d4}) bludgeoning damage. If the attack is a critical hit it turns into a Bite."
+			]
+		},
+		{
+			"name": "Bite",
+			"entries": [
+				"{@atk mw} reach 5 ft., one target. {@h} ({@damage 1d4}) damage. Inflicts Festering Wound on failed {@dc 12} Constitution save."
+			]
+		},
+		{
+			"name": "Puke",
+			"entries": [
+				"10 ft range. {@dc 12} Dexterity save or be {@condition poisoned} for one turn."
+			]
+		}
+	],
+	"environment": [
+		"urban"
+	],
+	"tokenUrl": "https://github.com/Deadderth/homebrew/blob/main/tokens/infested_boomer.png?raw=true",
+	"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/426/zombie.mp3",
+	"damageTags": [
+		"I"
+	],
+	"miscTags": [
+		"MW"
+	],
+	"vulnerable": [
+		"fire",
+		"radiant"
+	],
+	"resist": [
+		"cold",
+		"necrotic"
+	],
+	"cr": "0",
+	"fluff": {
+		"entries": [
+			"A rotund human body, bloated beyond belief and layered in rolls of fat. It emits a horrible odor, and a putrid pink sludge dribbles from its mouth."
+		],
+		"images": [
+			{
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://github.com/Deadderth/homebrew/blob/main/tokens/infested_boomer.png?raw=true"
+				}
+			}
+		]
+	}
+},
+		{
+	"name": "Infested Fat Zombie",
+	"source": "ZombieHorde",
+	"size": "M",
+	"type": {
+		"type": "undead",
+		"tags": [
+			"infested"
+		]
+	},
+	"alignment": [
+		"C",
+		"E"
+	],
+	"ac": [
+		6
+	],
+	"hp": {
+		"special": "16"
+	},
+	"speed": {
+		"walk": 10
+	},
+	"str": 14,
+	"dex": 4,
+	"con": 16,
+	"int": 2,
+	"wis": 2,
+	"cha": 2,
+	"passive": 6,
+	"immune": [
+		"poison",
+		"psychic"
+	],
+	"conditionImmune": [
+		"charmed",
+		"exhaustion",
+		"frightened",
+		"poisoned",
+		"unconscious"
+	],
+	"trait": [
+		{
+			"name": "Fear The Horde",
+			"entries": [
+				"This creature gets {@hit 1} to hit for every two other Infested adjacent to attacked enemy. (Maximum of +4)"
+			]
+		},
+		{
+			"name": "Infested",
+			"entries": [
+				"This creature is Infested, corpses not burnt, pulped or dismembered are dangerous."
+			]
+		}
+	],
+	"action": [
+		{
+			"name": "Slam",
+			"entries": [
+				"{@atk mw} {@hit -4} to hit, reach 5 ft., one target. {@h} ({@damage 1d4}) bludgeoning damage. If the attack is a critical hit it turns into a Bite."
+			]
+		},
+		{
+			"name": "Bite",
+			"entries": [
+				"{@atk mw} reach 5 ft., one target. {@h} ({@damage 1d4}) damage. Inflicts Festering Wound on failed {@dc 12} Constitution save."
+			]
+		}
+	],
+	"environment": [
+		"urban"
+	],
+	"tokenUrl": "https://raw.githubusercontent.com/Deadderth/homebrew/main/tokens/infested_fat_zombie.png",
+	"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/426/zombie.mp3",
+	"damageTags": [
+		"B"
+	],
+	"miscTags": [
+		"MW"
+	],
+	"vulnerable": [
+		"fire",
+		"radiant"
+	],
+	"resist": [
+		"cold",
+		"necrotic"
+	],
+	"cr": "0",
+	"fluff": {
+		"entries": [
+			"Stumbling as it moves, this corpse of an overweight human regards its surroundings with an empty black gaze."
+		],
+		"images": [
+			{
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://joshsworstnightmare.files.wordpress.com/2017/04/fat-zombie-doug-williams.jpg?w=676"
+				}
+			}
+		]
+	}
+},
+		{
+	"name": "Infested Grappler Zombie",
+	"source": "ZombieHorde",
+	"size": "M",
+	"type": {
+		"type": "undead",
+		"tags": [
+			"infested"
+		]
+	},
+	"alignment": [
+		"C",
+		"E"
+	],
+	"ac": [
+		10
+	],
+	"hp": {
+		"special": "12"
+	},
+	"speed": {
+		"walk": 15
+	},
+	"str": 14,
+	"dex": 8,
+	"con": 12,
+	"int": 4,
+	"wis": 2,
+	"cha": 2,
+	"passive": 6,
+	"immune": [
+		"poison",
+		"psychic"
+	],
+	"conditionImmune": [
+		"charmed",
+		"exhaustion",
+		"frightened",
+		"poisoned",
+		"unconscious"
+	],
+	"trait": [
+		{
+			"name": "Fear The Horde",
+			"entries": [
+				"This creature gets {@hit 1} to hit for every two other Infested adjacent to attacked enemy. (Maximum of +4)"
+			]
+		},
+		{
+			"name": "Infested",
+			"entries": [
+				"This creature is Infested, corpses not burnt, pulped or dismembered are dangerous."
+			]
+		}
+	],
+	"action": [
+		{
+			"name": "Slam",
+			"entries": [
+				"{@atk mw} {@hit -4} to hit, reach 5 ft., one target. {@h} ({@damage 1d4}) bludgeoning damage. If the attack is a critical hit it turns into a Bite."
+			]
+		},
+		{
+			"name": "Bite",
+			"entries": [
+				"{@atk mw} reach 5 ft., one target. {@h} ({@damage 1d4}) damage. Inflicts Festering Wound on failed {@dc 12} Constitution save."
+			]
+		},
+		{
+			"name": "Grab",
+			"entries": [
+				"{@atk rw} {@hit -4} to hit, range 15 ft., one target. On hit, target is {@condition grappled} and on each of this creature's turns is reeled in to melee range on failed {@dc 12} Strength save. {@dc 12} Athletics or Acrobatics to break out of grapple as an action. "
+			]
+		}
+	],
+	"environment": [
+		"urban"
+	],
+	"tokenUrl": "https://github.com/Deadderth/homebrew/blob/main/tokens/infested_grappler_zombie.png?raw=true",
+	"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/426/zombie.mp3",
+	"damageTags": [
+		"B"
+	],
+	"miscTags": [
+		"MW",
+		"RW"
+	],
+	"vulnerable": [
+		"fire",
+		"radiant"
+	],
+	"resist": [
+		"cold",
+		"necrotic"
+	],
+	"cr": "0",
+	"fluff": {
+		"entries": [
+			"An undead humanoid, its elongated arms drag along the ground as it moves. It looks to almost have a hunch from the swollen back and shoulder muscles tearing through its skin."
+		],
+		"images": [
+			{
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.pinimg.com/736x/73/65/3a/73653af87e5616a5b75e6625585d1798.jpg"
+				}
+			}
+		]
+	},
+	"conditionInflict": [
+		"grappled"
+	]
+},
+		{
+	"name": "Infested Zombie",
+	"source": "ZombieHorde",
+	"size": "M",
+	"type": {
+		"type": "undead",
+		"tags": [
+			"infested"
+		]
+	},
+	"alignment": [
+		"C",
+		"E"
+	],
+	"ac": [
+		8
+	],
+	"hp": {
+		"special": "8"
+	},
+	"speed": {
+		"walk": 15
+	},
+	"str": 12,
+	"dex": 6,
+	"con": 14,
+	"int": 2,
+	"wis": 2,
+	"cha": 2,
+	"passive": 6,
+	"immune": [
+		"poison",
+		"psychic"
+	],
+	"conditionImmune": [
+		"charmed",
+		"exhaustion",
+		"frightened",
+		"poisoned",
+		"unconscious"
+	],
+	"trait": [
+		{
+			"name": "Fear The Horde",
+			"entries": [
+				"This creature gets {@hit 1} to hit for every two other Infested adjacent to attacked enemy. (Maximum of +4)"
+			]
+		},
+		{
+			"name": "Infested",
+			"entries": [
+				"This creature is Infested, corpses not burnt, pulped or dismembered are dangerous."
+			]
+		}
+	],
+	"action": [
+		{
+			"name": "Slam",
+			"entries": [
+				"{@atk mw} {@hit -4} to hit, reach 5 ft., one target. {@h} ({@damage 1d4}) bludgeoning damage. If the attack is a critical hit it turns into a Bite."
+			]
+		},
+		{
+			"name": "Bite",
+			"entries": [
+				"{@atk mw} reach 5 ft., one target. {@h} ({@damage 1d4}) damage. Inflicts Festering Wound on failed {@dc 12} Constitution save."
+			]
+		}
+	],
+	"environment": [
+		"urban"
+	],
+	"tokenUrl": "https://raw.githubusercontent.com/Deadderth/homebrew/main/tokens/infested_zombie.png",
+	"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/426/zombie.mp3",
+	"damageTags": [
+		"B"
+	],
+	"miscTags": [
+		"MW"
+	],
+	"vulnerable": [
+		"fire",
+		"radiant"
+	],
+	"resist": [
+		"cold",
+		"necrotic"
+	],
+	"cr": "0",
+	"fluff": {
+		"entries": [
+			"A human body, swaying as it moves, an unstoppable rage visible in its oily black eyes."
+		],
+		"images": [
+			{
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.pinimg.com/originals/4e/40/3f/4e403f3cc4c2686791c2edf1faa331d1.jpg"
+				}
+			}
+		]
+	}
+},
+	]
+}
