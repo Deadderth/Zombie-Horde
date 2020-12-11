@@ -124,51 +124,7 @@
 		]
 	}
 },
-				{
-					"name": "Vampire Weakness",
-					"entries": [
-						"The vampire has the following flaws:",
-						"Forbiddance. The vampire can't enter a residence without an invitation from one of the occupants.",
-						"Harmed by Running Water. The vampire takes 20 acid damage when it ends its turn in running water.",
-						"Stake to the Heart. The vampire is destroyed if a piercing weapon made of wood is driven into its heart while it is {@condition incapacitated}.",
-						"Sunlight Hypersensitivity. The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has",
-						"disadvantage on attack rolls and ability checks."
-					]
-				}
-			],
-			"damageTags": [
-				"S",
-				"P",
-				"N"
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"entries": [
-						"The bloodrager makes two claw attacks or one claw attack to grapple the target and then one bite attack"
-					]
-				},
-				{
-					"name": "Claws",
-					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}14 ({@damage 3d6 + 4}) slashing damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 14})."
-					]
-				},
-				{
-					"name": "Bite",
-					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) piercing damage, plus 9 ({@damage 2d8}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0"
-					]
-				}
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"miscTags": [
-				"MW"
-			],
-			"tokenUrl": "https://i.imgur.com/DfdjgIa.png"
-		},
+				
 		{
 			"name": "Vampire, Gutripper",
 			"size": "M",
